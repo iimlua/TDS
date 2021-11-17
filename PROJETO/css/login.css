@@ -180,6 +180,8 @@ input[type=password]{outline:none}
 a img{
   margin-top: -5vh;
   margin-left: -10vw;
+  width: 1rem;
+}
   }
   
 
