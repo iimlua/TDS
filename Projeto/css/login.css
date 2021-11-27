@@ -1,0 +1,202 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+.forma{
+  width: 60vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.conteudo{
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.conteudo h2{
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+font-size: 2.5rem;
+color: white;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo a{
+  text-decoration: none;
+
+  color: orangered;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo img{
+  height: 75vh;
+  display: flex;
+}
+
+.form h1{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: orangered;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form a{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  text-decoration: none;
+  color: orangered;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  padding: 16vh;
+  float: right;
+  width: 50vw;
+}
+
+.form{
+  display: block;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form input{
+  font-family: 'Bebas Neue';
+  font-size: 1.5rem;
+  padding: 0rem 0rem 0rem 0.5rem;
+  text-align: left;
+  height: 10vh;
+  width: 35vw;
+  background-color: rgba(196, 196, 196, 0.31);
+  color: rgba(38, 50, 56, 0.59);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(196, 196, 196, 0.31);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a img{
+  position: absolute;
+  margin-top: -8vh;
+  margin-left: -3vw;
+}
+
+.entrar{
+  display: flex;
+  justify-content: center;
+}
+
+.entrar input{
+  width: 14vw;
+  height: 8vh;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+
+  background-color: orangered;
+  color: white;
+}
+
+input[type=text]{
+  outline:none;
+  margin-bottom: 2rem;
+}
+input[type=password]{outline:none}
+
+
+@media only screen and (min-width: 300px) and (max-width: 800px){
+
+  .forma{
+    height: 100vh;
+    width: 92vw;
+  }
+  .conteudo img {
+    height: 40vh;
+    width: 100vw;
+}
+
+.conteudo h2{
+  font-size: 1.4rem;
+}
+
+.formulario{
+  position: absolute;
+  width: 100vw;
+  padding: 0%;
+}
+
+.form h1{
+ font-size: 4rem; 
+ margin-top: 50vh;
+ margin-bottom: 0.5rem;
+}
+
+.form a{
+  font-size: 1rem;
+  margin-top: -1vh;
+  margin-bottom: 2vh;
+}
+.form input{
+  height: 6vh;
+  width: 75vw;
+  background-color: rgb(226, 226, 226);
+}
+
+.entrar input{
+  height: 5vh;
+  font-size: 1.2rem;
+  width: 33vw;
+  background-color: orangered;
+}
+
+a img{
+  margin-top: -5vh;
+  margin-left: -10vw;
+  }
+  
+
+}
+
+h2#principal {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+
+input[type=password]{
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1190px){
+
+  .conteudo h2{
+    font-size: 2rem;
+  }
+  .conteudo img{
+    height: 65vh;
+    width: 56vw;
+  }
+}
