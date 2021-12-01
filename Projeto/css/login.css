@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
   margin: 0;
@@ -194,12 +194,14 @@ h2#principal {
   }
 
 input[type=text]{
+  margin-top: auto;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
 input[type=password]{
   margin-bottom: 1rem;
+  margin-top: auto;
   font-size: 1.2rem;
 }
 }
