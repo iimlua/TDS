@@ -297,6 +297,9 @@ footer{
     font-size: 1.5rem;
   }
 
+  #form {
+    max-width: 315px;
+}
   #form h2{
     font-size: 3.5rem;
   }
