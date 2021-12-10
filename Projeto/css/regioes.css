@@ -288,10 +288,6 @@ footer{
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px){
-
-  #modal{
-    padding: 1.5rem 0rem;
-  }
   
   #jogarnovamente{
     font-size: 1.5rem;
@@ -314,11 +310,12 @@ footer{
   }
 
   #sair{
-    margin-left: 0.5rem;
+    margin-left: -0.5rem;
   }
 
   #estrela{
-    width: 3.5rem;
+    width: 5rem;
+    margin-left: 5rem;
   }
   label img{
     margin: auto;
